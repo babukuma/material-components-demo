@@ -6,6 +6,9 @@ target 'material-components-demo' do
   use_frameworks!
 
   # Pods for material-components-demo
+  pod 'MaterialComponents/AppBar'
+  pod 'MaterialComponents/Buttons'
+  pod 'MaterialComponents/Collections'
 
   target 'material-components-demoTests' do
     inherit! :search_paths
